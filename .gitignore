@@ -1,0 +1,55 @@
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Entornos virtuales ---
+.env
+.venv/
+env/
+venv/
+ENV/
+*.conda
+*.virtualenv
+
+# --- Archivos de configuración sensibles ---
+*.ini
+*.toml
+*.cfg
+*.yaml
+*.yml
+*.json
+*.secret
+*.key
+
+# --- Archivos de datos grandes o temporales ---
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.zip
+*.gz
+*.tar
+*.log
+
+# --- Sistemas operativos ---
+.DS_Store
+Thumbs.db
+
+# --- Otros ---
+.idea/
+.vscode/
+EOF
+
